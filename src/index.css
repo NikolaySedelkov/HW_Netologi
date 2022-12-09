@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hw-1{
+  height: 600px;
+  width: 1000px;
+  position: relative;
+  background: linear-gradient(-5deg, rgb(133, 133, 133) 50%, rgb(0, 0, 134) 50% ,rgb(0, 0, 134) 100%) ;
+}
+
+.img__card-item{
+  --mr: 50px;
+  margin-top: var(--mr);
+  margin-left: var(--mr);
+  margin-bottom: var(--mr);
+  height: 500px;
+  position: absolute;
+  z-index: 99;
+  box-shadow: 0 0 5px;
+}
