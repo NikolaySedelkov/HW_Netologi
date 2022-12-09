@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import ShopItemFunc from './ShopItemFunc';
+import ShopItemClass from './ShopItemClass';
 import reportWebVitals from './reportWebVitals';
 import ImgItem from './item.png'
 
@@ -18,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <img className="img__card-item" src={ImgItem}/>
-    <ShopItemFunc item={item}/>
+    <ShopItemClass item={item}/>
   </React.StrictMode>
 );
 
